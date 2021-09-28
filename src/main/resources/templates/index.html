@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form th:action="@{/send-form}" method="post" th:object="${formRequest}" enctype="multipart/form-data">
+        <label for="inputSubject">Subject</label>
+        <input type="text" id="inputSubject" th:field="*{subject}"> <br>
+        <label for="inputContent">Content</label>
+        <input type="text" id="inputContent" th:field="*{content}"> <br>
+        <label for="inputMail">Send to</label>
+        <input type="text" id="inputMail" th:field="*{mailTo}"> <br>
+        <label for="inputFile">Content</label>
+        <input type="file" id="inputFile" th:field="*{files}" multiple> <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
