@@ -40,5 +40,9 @@ Bước 2: Truy cập vào link https://myaccount.google.com/lesssecureapps?pli=
 
 Bước 3: Click chọn "Quyền truy cập của ứng dụng kém an toàn" click nút gạt màu Xanh để bật sang chế độ cho phép như hình dưới.
 
+## Send mail với Scheduling
+- Đọc kiến thức Scheduling ở repo: https://github.com/huannd0101/Demo-Scheduling 
+
+
 ## Code thì tự đọc nhé :v
 (Nguồn tham khảo trên mạng lâu lâu quên link :v)
